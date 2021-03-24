@@ -1,10 +1,10 @@
 <html>
-<head>	
+<head>
     <meta charset="utf-8" />
-<title>洋楽図書館(建設中)</title>
+<title>洋楽図書館</title>
 </head>
 <body background="big-old-library-millions-of-books-wallpaper-266873301.jpg">
-<font size="7" color="white"><b>ようこそ、洋楽図書館(建設中)へ</b></font>
+<font size="7" color="white"><b>ようこそ、洋楽図書館へ</b></font>
 <br><font size="4" color="white">
 <br>洋楽が好きな皆さま、ようこそいらっしゃいました。私は館長のやなぎぃです。
 <br>この図書館は「どこの洋楽サイトよりも多く、Wikipediaよりも詳しく」をモットーにしております。
@@ -14,7 +14,10 @@
 <br><font color="aqua" size="4"><a href="artists.html">アーティスト一覧</a>
 <br><a href="year.html">年代別一覧</a></font>
 <br>
-<br><font color="white" size="4">検索欄(飾りです。使えません)</font>
-<br><textarea></textarea>
+<br><form action="cgi-bin/example.cgi" method="post">
+    <p><font color="white" size="4">検索欄(不完全です。使わないでください)</font></p>
+    <input type="search" name="search" placeholder="キーワードを入力">
+    <input type="submit" name="submit" value="検索">
+  </form>
 </body>
 </html>
